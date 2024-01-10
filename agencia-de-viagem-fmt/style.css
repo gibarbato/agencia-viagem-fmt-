@@ -1,0 +1,103 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: lightgray;
+}
+
+.overlay {
+    position: relative;
+    height: 400px; /* Defina a altura desejada para o banner */
+    background-image: url('./imgs/palace-530055_1280.jpg'); /* Insira o caminho para sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+  }
+  
+  #minha-viagem{
+    background-size: cover;
+    background-position: center;
+    background-image: url('./imgs/tour_set_13.jpg');
+    height: 400px; /* Defina a altura desejada para o banner */
+    margin: 20px;
+  }
+
+  section {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .img-rede-social {
+    width: 30px;
+    height: 30px;
+}
+
+ul {
+  display: flex;
+  }
+
+li {
+  margin: 5px;
+  list-style:none;
+}
+
+#dicas{
+  color: yellow;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./imgs/europe.jpg');
+  height: 400px; /* Defina a altura desejada para o banner */
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#nos-encontre{
+  color: yellow;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./imgs/busca.jpg');
+  height: 400px; /* Defina a altura desejada para o banner */
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dicas {
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.dicas-viagem {
+  color: yellow;
+  background-color: #fff;
+  margin: 5px;
+  padding: 3px;
+  border: 2px solid gray;
+}
+
+.dicas-viagem:hover {
+  background: gray;
+  border: 2px solid lightgray;
+}
+
